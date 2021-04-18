@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <div class="todo_app">
-      <h2>Todo List</h2>
+      <h2>Todo List Vue.js</h2>
       <InputTodo :inputAddTodo="inputAddTodo" />
       <div v-if="todos.length > 0">
         <TodoList
